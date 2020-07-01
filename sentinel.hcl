@@ -5,6 +5,6 @@ policy "tags_enforced" {
 policy "policy.test" {
 #source = "https://mybitbucket_url.org/projects/INFAUTO/repos/terraform-policy-test/policy.test.sentinel"
 # source = "./policy.test.sentinel"   
-source = "https://github.com/susiesolis/Sentinel-Training.git"    
+source = "https://github.com/susiesolis/Sentinel-Training/policy.test.sentinel"    
 enforcement_level = "soft-mandatory"
 }
