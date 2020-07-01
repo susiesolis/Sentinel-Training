@@ -1,0 +1,5 @@
+import "time"
+
+is_weekend = rule {time.now.weekday_name in ["Saturday", "Sunday"]}
+is_after_hours = rule { time.now.hour > 21 and time.now.hour < 23 }
+main = rule { is_weekend or is_after_hours}
